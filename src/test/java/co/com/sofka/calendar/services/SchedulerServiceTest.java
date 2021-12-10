@@ -44,7 +44,6 @@ class SchedulerServiceTest {
         Flux<ProgramDate> response = schedulerService.generateCalendar(programId, startDate);
         StepVerifier.create(response).expectNextCount(13).verifyComplete();
 
-        //Assertions.assertEquals(13, response.size());//TODO: hacer de otro modo
         //Assertions.assertEquals(getSnapResult(), new Gson().toJson(response));//TODO: hacer de otro modo
         //Mockito.verify(repository).findById(programId);
     }
