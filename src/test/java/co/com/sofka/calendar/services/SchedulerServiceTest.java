@@ -32,7 +32,7 @@ class SchedulerServiceTest {
     @Test
         //TODO: modificar el test para que el act sea reactivo, usando stepverifier
     void generateCalendar() {
-        var programId = "xxxx";
+        var programId = "xxxxxx";
         var startDate = LocalDate.of(2022, 1, 1);
 
         Program program = getProgramDummy();
